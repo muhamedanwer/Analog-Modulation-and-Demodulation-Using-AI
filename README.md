@@ -1,4 +1,4 @@
-```markdown
+
 # Analog Modulation and Demodulation Using AI
 
 This repository contains the complete implementation, analysis, and AI-enhanced demodulation of six classic analog modulation techniques. It is part of the **ECE 342 Project – Spring 2026** by Mohamed Anwar under the supervision of Dr. Ashraf Samy.
