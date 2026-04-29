@@ -17,8 +17,7 @@ For each scheme, traditional demodulation methods are implemented. Additionally,
 
 ## Repository Structure
 
-```
-.
+```.
 ├── Analog_Modulation.m          # All modulation implementations
 ├── AI_Demodulation.m            # Neural network training and testing
 ├── Performance_Analysis.m       # Monte Carlo simulation & MSE vs SNR plots
