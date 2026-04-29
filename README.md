@@ -1,12 +1,9 @@
 ```markdown
 # Analog Modulation and Demodulation Using AI
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%2B-blue)](https://www.mathworks.com/products/matlab.html)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
 This repository contains the complete implementation, analysis, and AI-enhanced demodulation of six classic analog modulation techniques. It is part of the **ECE 342 Project – Spring 2026** by Mohamed Anwar under the supervision of Dr. Ashraf Samy.
 
-## 📡 Overview
+## Overview
 
 The project explores:
 - **Amplitude Modulation (AM)**
@@ -18,7 +15,7 @@ The project explores:
 
 For each scheme, traditional demodulation methods are implemented. Additionally, a feed‑forward neural network (AI‑based demodulator) is trained to recover the original message from noisy modulated signals, offering **3–5 dB improvement** in low‑SNR regimes (0–10 dB).
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -30,13 +27,13 @@ For each scheme, traditional demodulation methods are implemented. Additionally,
 └── figures/                     # Generated time‑domain and frequency‑domain plots
 ```
 
-## ⚙️ Dependencies
+##  Dependencies
 
 - **MATLAB** (R2020b or later recommended)
 - **Deep Learning Toolbox** (for neural network functions)
 - **Signal Processing Toolbox** (for filtering, Hilbert transform, etc.)
 
-## 🚀 How to Use
+## How to Use
 
 1. **Clone the repository**
    ```bash
@@ -56,7 +53,7 @@ For each scheme, traditional demodulation methods are implemented. Additionally,
 4. **Performance Comparison**
    Run `Performance_Analysis.m` to obtain the **MSE vs SNR** curves comparing traditional and AI‑enhanced demodulation across all modulation types.
 
-## 🧠 AI Model Architecture
+## AI Model Architecture
 
 - **Input**: 200‑sample downsampled modulated signal
 - **Architecture**: 3‑layer feed‑forward network (`200 → 128 → 128 → 200`)
@@ -64,7 +61,7 @@ For each scheme, traditional demodulation methods are implemented. Additionally,
 - **Loss function**: Mean Squared Error (MSE)
 - **Optimizer**: Adam, learning rate 0.001
 
-## 📊 Key Results
+## Key Results
 
 | Modulation | Bandwidth | Traditional MSE (0 dB) | AI MSE (0 dB) | Improvement |
 |------------|-----------|------------------------|---------------|-------------|
@@ -77,7 +74,7 @@ For each scheme, traditional demodulation methods are implemented. Additionally,
 
 > The AI demodulator consistently outperforms traditional methods at low SNR, while both converge at high SNR (>15 dB).
 
-## 📖 Report
+##  Report
 
 The full project report is available as `report.docx` and includes:
 - Mathematical models of all six modulation schemes
@@ -86,7 +83,7 @@ The full project report is available as `report.docx` and includes:
 - AI training curves and performance comparisons
 - Discussion of results and limitations
 
-## 👤 Author
+##  Author
 
 **Mohamed Anwar**  
 ECE 342 Project – Spring 2026  
